@@ -1,16 +1,20 @@
 # conversor
 
-A new Flutter application.
+Application that consumes an API for currency conversion.
 
-## Getting Started
+The values may not be accurate and should only be used for informational purposes.
 
-This project is a starting point for a Flutter application.
+## Widgets learned
 
-A few resources to get you started if this is your first Flutter project:
+- JSON convert
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+- [API HG Finance](https://hgbrasil.com/status/finance/)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+- Future
+
+- FutureBuilder
+
+## About the course
+
+- [Flutter Course](https://www.udemy.com/curso-completo-flutter-app-android-ios)
+
