@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
@@ -138,6 +138,9 @@ class _HomeState extends State<Home> {
                   _euro = snapshot.data["results"]["currencies"]["EUR"]["buy"];
                   _bitcoin =
                       snapshot.data["results"]["currencies"]["BTC"]["buy"];
+		  _peso = snapshot.data["results"]["currencies"]["ARS"]["buy"];
+		  _libra = snapshot.data["results"]["currencies"]["GBP"]["buy"];
+
                   return SingleChildScrollView(
                     padding: EdgeInsets.only(
                         top: 10.0, bottom: 10.0, right: 20.0, left: 20.0),
